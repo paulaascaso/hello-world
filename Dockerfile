@@ -1,7 +1,6 @@
 FROM odoo:14.0
 
-LABEL MAINTAINER Marlon Falcon <mfalconsoft@gmail.com>
+LABEL MAINTAINER Paula Ascaso <ascasopaula@gmail.com>
 USER root
 
 RUN pip3 install dropbox
-

@@ -1,5 +1,7 @@
 version: '3'
+
 services:
+
   web:
     platform: linux/x86_64
     container_name: ${WEB_HOST}
@@ -14,10 +16,9 @@ services:
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
       - ./addons-customize:/mnt/extra-addons-customize
-    environment:
-      - VIRTUAL_HOST=odoo14.marlonfalcon.com
     entrypoint: "/usr/bin/odoo -c /etc/odoo/odoo.conf"
     restart: always
+
   db:
     platform: linux/x86_64
     container_name: ${DB_HOST}
@@ -32,6 +33,7 @@ services:
     volumes:
       - odoo-db-data:/var/lib/postgresql/data/pgdata
     restart: always
+
 volumes:
   odoo-db-data:
   odoo-web-data:
