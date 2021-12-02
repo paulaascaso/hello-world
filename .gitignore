@@ -1,2 +1,4 @@
 addons
-#addons-customize
+addons-customize
+
+.DS_Store
