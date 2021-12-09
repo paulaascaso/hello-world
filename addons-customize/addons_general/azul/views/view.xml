@@ -8,13 +8,13 @@
             <field name="arch" type="xml">
 
               <field name="categ_id" position="after" >
-                    <field name="family_blue"/>
+                    <field name="blue"/>
                </field>
 
                <field name="description" position="replace"/>
 
                <field name="list_price" position="attributes">
-                    <attribute name="attrs">{'required':[('family_blue','=','marlon')]}</attribute>
+                    <attribute name="attrs">{'required':[('blue','=','marlon')]}</attribute>
                 </field>
 
             </field>
@@ -28,9 +28,9 @@
         <field name="arch" type="xml">
 
           <field name="default_code" position="after" >
-                <field name="family_blue"/>
+                <field name="blue"/>
            </field>
-           
+
         </field>
     </record>
 
