@@ -2,12 +2,12 @@
 
 
 {
-    'name': 'Familias Productos',
+    'name': 'Descripción Productos',
     'version': '1.0.0',
     'author': 'Paula Ascaso',
     'maintainer': 'Paula Ascaso',
     'category': 'Extra Tools',
-    'summary': 'Familias y Subfamilias de los Productos.',
+    'summary': 'Descripción de los Productos.',
     'depends': ['base', 'stock'],
     'data': [
         'views/view.xml',

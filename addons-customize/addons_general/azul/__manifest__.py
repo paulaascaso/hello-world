@@ -3,7 +3,7 @@
 
 {
     'name': 'Azul',
-    'version': '14.0',
+    'version': '1.1.0',
     'author': 'Paula Ascaso',
     'maintainer': 'Paula Ascaso',
     'category': 'Extra Tools',
