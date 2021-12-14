@@ -1,4 +1,4 @@
-# Módulo 1 - Agregar campos
+# Módulo 1 - Heredar modelos y vistas / Agregar campos
 
 Agrego campo Familia y Subfamilia a los Productos.
 
