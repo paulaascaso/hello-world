@@ -1,3 +1,3 @@
-"name","phone","email","activity_ids/.id","city","country_id/.id"
-"Nueva empresa 3","123456789","company3@gmail.com","","Pleasant Hill",233
-"Nueva empresa 4","987456321","company4@gmail.com","","Buenos Aires",10
+"name","phone","email","user_id","city","country_id"
+"Nueva empresa 5","123456789","company5@gmail.com","Mitchell Admin","Pleasant Hill","United States"
+"Nueva empresa 6","987456321","company6@gmail.com","","Buenos Aires","Argentina"
