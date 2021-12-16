@@ -1,0 +1,5 @@
+FROM dpage/pgadmin4:latest
+
+LABEL MAINTAINER Paula Ascaso <ascasopaula@gmail.com>
+
+EXPOSE 5050

@@ -9,3 +9,5 @@ __pycache__
 
 datos excel
 res.partner_with_related_db_id.csv
+
+.env-pgadmin
