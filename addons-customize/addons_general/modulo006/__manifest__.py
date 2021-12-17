@@ -8,7 +8,7 @@
     'maintainer': 'Paula Ascaso',
     'category': 'Extra Tools',
     'summary': 'El Administrador no puede eliminar productos que tengan un Beneficio positivo.',
-    'depends': ['base','stock'],
+    'depends': ['base','stock','modulo007'],
     'data': [
         'views/view.xml',
         'security/security.xml'
