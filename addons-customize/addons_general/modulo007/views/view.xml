@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="view_modulo007_product_template_form">
+          <field name="name">view.modulo007.product.template.form</field>
+          <field name="model">product.template</field>
+          <field name="inherit_id" ref="product.product_template_only_form_view" />
+          <field name="arch" type="xml">
+
+            <field name="company_id" position="after" >
+                  <field name="profit" widget="monetary" attrs="{'invisible':['|',('profit','&gt;',0),('profit','=',0)]}" style="color:Red"/>
+             </field>
+
+             <field name="company_id" position="after" >
+                   <field name="profit" widget="monetary" attrs="{'invisible':[('profit','&lt;',0)]}" style="color:#4c4c4c"/>
+              </field>
+
+          </field>
+        </record>
+
+    </data>
+</odoo>
