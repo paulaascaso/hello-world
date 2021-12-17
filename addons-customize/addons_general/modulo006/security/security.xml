@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.rule" id="admin_cant_unlink_products_with_profit_positive">
+
+          <field name="name">No puede borrar productos con beneficio positivo</field>
+          <field name="model_id">19</field>
+          <field name="groups" eval="[(4, ref('base.group_system'))]"/>
+          <field name="perm_read" eval="1"/>
+          <field name="perm_write" eval="1"/>
+          <field name="perm_create" eval="1"/>
+          <field name="perm_unlink" eval="0"/>
+
+          <field name="domain_force">[('model_id.profit','>=','0')]</field>
+
+        </record>
+
+    </data>
+</odoo>
