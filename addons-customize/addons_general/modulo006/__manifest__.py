@@ -3,14 +3,14 @@
 
 {
     'name': 'Reglas de Registro',
-    'version': '1.0.0',
+    'version': '2.0.0',
     'author': 'Paula Ascaso',
     'maintainer': 'Paula Ascaso',
     'category': 'Extra Tools',
-    'summary': 'El Administrador no puede eliminar productos que tengan un Beneficio positivo.',
-    'depends': ['base','stock','modulo007'],
+    'summary': 'El usuario demo solo puede ver los productos de su compañía.',
+    'depends': ['base','stock','modulo005'],
     'data': [
         'views/view.xml',
-        'security/security.xml'
+        'security/modulo006_security.xml'
     ],
 }

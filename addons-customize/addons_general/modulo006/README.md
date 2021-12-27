@@ -1,5 +1,3 @@
 # Módulo 6 - Crear reglas de registro (dominios)
 
-El Administración / Ajustes (usuario Mitchell Admin) puede Eliminar Productos.
-
-Le quito permiso para eliminar los Productos con los que se obtenga un Beneficio >= 0.
+El grupo Prueba / Usuario solo puede ver, crear y eliminar los Productos que pertenecen a su compañía.
