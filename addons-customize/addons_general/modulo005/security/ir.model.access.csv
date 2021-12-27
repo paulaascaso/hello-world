@@ -1,0 +1,4 @@
+id,name,model_id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_products_template_user,Access Product Template User,product.template,prueba_user,1,1,1,0
+access_products_user,Access Product User,product.product,prueba_user,1,1,1,0
+access_products_admin,Access Product Manager,product.template,prueba_admin,1,1,1,1

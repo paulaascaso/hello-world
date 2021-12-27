@@ -3,15 +3,15 @@
 
 {
     'name': 'Crear Permisos',
-    'version': '1.1.0',
+    'version': '2.0.0',
     'author': 'Paula Ascaso',
     'maintainer': 'Paula Ascaso',
     'category': 'Extra Tools',
-    'summary': 'Le doy permiso para editar y diseñar la página web al grupo Editor Web.',
-    'depends': ['base','website','website_crm'],
+    'summary': 'Permisos de acceso para crear y eliminar productos.',
+    'depends': ['base','sale_management','stock'],
     'data': [
         'views/view.xml',
-        'data/res.groups.csv',
-        'data/ir.model.access.csv'
+        'security/modulo005_security.xml',
+        'security/ir.model.access.csv'
     ],
 }
