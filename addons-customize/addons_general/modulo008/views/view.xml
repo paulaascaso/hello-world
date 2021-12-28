@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!--<data>
+
+        <record model="ir.ui.view" id="view_father14_(name_model)_(view_type)">
+          <field name="name">view.father14.(name.model).(view.type)</field>
+          <field name="model">nombre del modelo</field>
+          <field name="inherit_id" ref="ID externo" />
+          <field name="arch" type="xml">
+
+
+
+          </field>
+        </record>
+        
+    </data>-->
+</odoo>
