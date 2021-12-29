@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+
+    <report
+      string="Informe Venta"
+      id="modulo010_sale_order_report"
+      model="sale.order"
+      report_type="qweb-pdf"
+      name="modulo010.report_sale_order_card"
+      file="modulo010.report_sale_order_card"
+      attachment_use="True"
+    />
+
+  </data>
+</odoo>
