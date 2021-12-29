@@ -2,7 +2,7 @@
   <data>
 
     <report
-      string="Informe Venta"
+      string="Informe de Venta"
       id="modulo010_sale_order_report"
       model="sale.order"
       report_type="qweb-pdf"
