@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+
+    <report
+      string="Informe de Ventas XLSX"
+      id="modulo011_sale_order_report"
+      model="sale.order"
+      report_type="xlsx"
+      name="modulo011.report_sale_order_card"
+      file="nombre_archivo"
+      attachment_use="False"
+    />
+
+  </data>
+</odoo>
