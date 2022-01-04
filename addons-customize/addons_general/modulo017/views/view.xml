@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="view_modulo017_crm_lead_form">
+          <field name="name">view.modulo017.crm.lead.form</field>
+          <field name="model">crm.lead</field>
+          <field name="inherit_id" ref="crm.crm_lead_view_form" />
+          <field name="arch" type="xml">
+
+            <header>
+                <button name="action_state_lead" type="object" string="Establecer estado" />
+            </header>
+
+            <field name="tag_ids" position="after" >
+                  <field name="state"/>
+             </field>
+
+          </field>
+        </record>
+
+    </data>
+</odoo>
