@@ -9,7 +9,4 @@
     'category': 'Extra Tools',
     'summary': 'Secuencias de facturación.',
     'depends': ['base','account'],
-    'data': [
-        'views/view.xml',
-    ],
 }
