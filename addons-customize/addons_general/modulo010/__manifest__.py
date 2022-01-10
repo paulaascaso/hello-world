@@ -10,7 +10,6 @@
     'summary': 'Informe de Venta en PDF.',
     'depends': ['base','sale'],
     'data': [
-        'views/view.xml',
         'views/report_template.xml',
         'reports/sale_report.xml'
     ],
