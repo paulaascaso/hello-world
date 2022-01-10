@@ -9,7 +9,4 @@
     'category': 'Extra Tools',
     'summary': 'Listar Usuarios.',
     'depends': ['base','website','website_crm'],
-    'data': [
-        'views/view.xml',
-    ],
 }
