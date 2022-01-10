@@ -10,7 +10,6 @@
     'summary': 'Cargo dos contactos nuevos a partir de un fichero csv.',
     'depends': ['base'],
     'data': [
-        'views/view.xml',
-        'data/res.partner.csv'
+        'data/res.partner.csv',
     ],
 }
