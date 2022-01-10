@@ -10,7 +10,6 @@
     'summary': 'El usuario demo solo puede ver los productos de su compañía.',
     'depends': ['base','stock','modulo005'],
     'data': [
-        'views/view.xml',
-        'security/modulo006_security.xml'
+        'security/modulo006_security.xml',
     ],
 }
