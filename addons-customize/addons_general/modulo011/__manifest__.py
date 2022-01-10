@@ -10,7 +10,6 @@
     'summary': 'Informe de Venta en XLSX.',
     'depends': ['base','sale','report_xlsx'],
     'data': [
-        'views/view.xml',
-        'reports/sale_report.xml'
+        'reports/sale_report.xml',
     ],
 }
