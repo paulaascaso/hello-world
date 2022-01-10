@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+
+    <record id="view_modulo016_product_template_hello_wizard_wizard" model="ir.ui.view">
+        <field name="name">view.modulo016.product.template.hello.wizard.wizard</field>
+        <field name="model">product.template.hello.wizard</field>
+        <field name="arch" type="xml">
+
+            <form>
+                <sheet>
+                    <group col="1">
+                        <p>Hola mundo!!</p>
+                    </group>
+                </sheet>
+                <footer>
+                    <button class="btn-primary" string="Guardar"  name="hello_wizard" type="object"/>
+                    <button class="btn-primary" string="Cancelar" special="cancel"/>
+                </footer>
+            </form>
+
+        </field>
+    </record>
+
+  </data>
+</odoo>

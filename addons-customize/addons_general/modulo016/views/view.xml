@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <template id="view_modulo016_product_template_tree" name="Button wizard hello" inherit_id="web.assets_backend">
+           <xpath expr="." position="inside">
+
+              <script type="text/javascript" src="/modulo016/static/src/js/wizard_hello.js"/>
+
+           </xpath>
+        </template>
+
+    </data>
+</odoo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="qweb_modulo016_button_hello_template" xml:space="preserve">
+
+    <t t-extend="ListView.buttons">
+        <t t-jquery="button.o_list_export_xlsx" t-operation="after">
+            <t t-if="widget.modelName == 'product.template'">
+               <button class="btn btn_sm btn-danger wizard_hello_button" type="button">
+                   Wizard Hello
+               </button>
+            </t>
+        </t>
+    </t>
+
+</templates>
