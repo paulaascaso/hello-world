@@ -9,7 +9,4 @@
     'category': 'Extra Tools',
     'summary': 'Método para crear productos modificado.',
     'depends': ['base', 'stock'],
-    'data': [
-        'views/view.xml',
-    ],
 }
