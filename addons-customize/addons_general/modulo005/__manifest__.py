@@ -10,7 +10,6 @@
     'summary': 'Permisos de acceso para crear y eliminar productos.',
     'depends': ['base','sale_management','stock'],
     'data': [
-        'views/view.xml',
         'security/modulo005_security.xml',
         'security/ir.model.access.csv'
     ],
